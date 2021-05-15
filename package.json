@@ -1,0 +1,29 @@
+{
+  "name": "simple-text-log",
+  "version": "0.0.1",
+  "description": "This is a simple logging utility that creates a text file when it is used. The maximum file size, path and name can be configued.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/logtest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxmot/simple-text-log.git"
+  },
+  "keywords": [
+    "Node.js",
+    "log",
+    "file",
+    "application",
+    "log"
+  ],
+  "author": "Jim Motyl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxmot/simple-text-log/issues"
+  },
+  "homepage": "https://github.com/jxmot/simple-text-log#readme"
+}
