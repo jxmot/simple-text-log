@@ -95,20 +95,20 @@ Found in **`logtest.js`**:
     Passing the logger function to other modules
 */
 const tmp = require('./logtest2.js');
-tmp(log);
+tmp(logOut);
 ```
 
 **`logtest2.js`**: 
 
 ```
-module.exports = (function(_log) {
+module.exports = (function(logOut) {
     // set up run-time logging for this module,
     // this is not requried but it helps when
     // determining the origin of a log entry.
     const path = require('path');
     const scriptName = path.basename(__filename);
     function log(payload) {
-        _log(`${scriptName} - ${payload}`);
+        logOut.writeTS(`${scriptName} - ${payload}`);
     };
 
     log(`init 2`);
