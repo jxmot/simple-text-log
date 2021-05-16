@@ -15,9 +15,12 @@
   },
   "keywords": [
     "Node.js",
-    "log",
+    "simple-text-log",
+    "logging",
+    "text-logging",
+    "utility",
     "file",
-    "application",
+    "application-log",
     "log"
   ],
   "author": "Jim Motyl",
