@@ -150,4 +150,5 @@ Then when `./logs/logfile.log` exceeds the size set in `logsize` it will be rena
 
 However, if `logsize` is `0` then the log file size is not managed and it will continue to grow. The size is only limited by your particular platform. This is **not** recommended in most usage scenarios.
 
-
+---
+<img src="http://webexperiment.info/extcounter/mdcount.php?id=simple-text-log">
